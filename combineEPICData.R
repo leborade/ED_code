@@ -198,6 +198,6 @@ EPIC <- merge(x=EPIC,
 
 print(colnames(EPIC))
 
-fwrite(x = final.EPIC, file = paste0(path, "EPIC.csv"))
+fwrite(x = EPIC, file = paste0(path, "EPIC.csv"))
 
 
